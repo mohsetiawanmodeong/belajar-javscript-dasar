@@ -1,20 +1,20 @@
-const person = {
+const orang = {
     "nama lengkap": "Moh. Setiawan Modeong",
     alamat: "Boltim",
     umur: 22
 };
 
-console.table(person);
+console.table(orang);
 
 // ubah property/attribute
 // person["nama"] = "Moh. Setiawan Modeong";
 // person["alamat"] = "Boltim";
 // person["umur"] = 22;
 
-console.info(`Nama : ${person["nama lengkap"]}`);
-console.info(`Alamat : ${person.alamat}`);
-console.info(`Umur : ${person.umur}`);
+console.info(`Nama : ${orang["nama lengkap"]}`);
+console.info(`Alamat : ${orang.alamat}`);
+console.info(`Umur : ${orang.umur}`);
 
-delete person["umur"];
+delete orang["umur"];
 
-console.table(person);
+console.table(orang);
